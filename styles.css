@@ -1,0 +1,13 @@
+.nasaImg {
+    width:100%;
+    height:auto;
+}
+.nasaVideo {
+    width:100%;
+    min-height:500px;
+}
+
+.displayNone {
+    display: none;
+}
+
