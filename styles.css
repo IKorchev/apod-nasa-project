@@ -1,17 +1,16 @@
 .nasaImg {
-    width:100%;
-    object-fit: contain;
+  width: 100%;
+  object-fit: contain;
 }
 .nasaVideo {
-    width:100%;
-    min-height:500px;
+  width: 100%;
+  min-height: 500px;
 }
 
 .displayNone {
-    display: none;
+  display: none;
 }
 
 #date {
-    width:14rem !important;
+  width: 14rem !important;
 }
-
