@@ -6,7 +6,7 @@ const btn = document.querySelector(".btn");
 const div = document.querySelector(".imgDiv");
 const h2 = document.querySelector('.title')
 const theDate = document.querySelector('.date')
-
+const explanation = document.querySelector('.explanation')
 
 const getImage = async () => {
   let response = await fetch(
@@ -24,6 +24,7 @@ const getImage = async () => {
     video.src = res.url
   }
   h2.textContent = res.title
+  explanation.textContent = res.explanation
 };
 
 btn.addEventListener("click", (e) => {

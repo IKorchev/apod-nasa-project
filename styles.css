@@ -1,6 +1,6 @@
 .nasaImg {
     width:100%;
-    height:auto;
+    object-fit: contain;
 }
 .nasaVideo {
     width:100%;
@@ -9,5 +9,9 @@
 
 .displayNone {
     display: none;
+}
+
+#date {
+    width:14rem !important;
 }
 
