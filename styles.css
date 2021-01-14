@@ -1,10 +1,12 @@
 .nasaImg {
   width: 100%;
   object-fit: contain;
+  border-radius: 10px;
 }
 .nasaVideo {
   width: 100%;
   min-height: 500px;
+  border-radius: 10px;
 }
 
 .displayNone {
@@ -13,4 +15,59 @@
 
 #date {
   width: 14rem !important;
+}
+.main {
+  box-shadow: 0 0 20px 5px rgb(19, 19, 19) !important;
+  border-radius: 10px;
+}
+
+.light {
+  color: white;
+  background: radial-gradient(
+    circle,
+    rgb(63, 198, 251) 0%,
+    rgb(230, 185, 39) 100%
+  );
+}
+
+
+.show-btn {
+  background: rgb(46, 96, 116);
+  color: white;
+  padding:10px 20px;
+  border-radius: 10px;
+  border: 1px white solid;
+  outline: none !important;
+  transition: transform 0.2s ease-in-out;
+}
+
+.show-btn:hover {
+  box-shadow:0 0 1px 1px rgb(255, 255, 255);
+  background: rgba(37, 24, 71, 0.719);
+  color: white;
+  transform: scale(1.09)
+}
+.dark-div{
+  position: absolute;
+  top:0;
+  right:20px;
+  margin-top: 10px;
+
+}
+.dark-mode {
+  color: black;
+  background: rgb(255, 255, 255);
+  border-radius: 100px;
+  border: none;
+  outline: none !important;
+  transition: all 0.3s ease-in-out;
+}
+.dark-mode-click {
+  transform:skew(-180deg)
+}
+
+
+body {
+  color: white;
+  background: radial-gradient(circle, rgb(13, 19, 49) 0%, rgb(44, 20, 25) 100%);
 }
